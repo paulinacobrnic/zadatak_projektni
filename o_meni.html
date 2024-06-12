@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Me</title>
+<style>
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+	background-image: url("slike/pozadina1.jpg")
+	
+}
+
+header {
+    background-color: #333;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+
+header nav a:hover {
+    background-color: #555;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+h3 {
+    color: black;
+    background-color: cadetblue;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+p {
+    color: black;
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: ghostwhite;
+    opacity: 0.8;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gallery img {
+    width: 30%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .gallery img {
+        width: 45%;
+    }
+}
+
+@media (max-width: 576px) {
+    .gallery img {
+        width: 100%;
+    }
+}
+</style>
+</head>
+<body>
+<header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="vjezbe.html">Vježbe</a>
+        <a href="video.html">Reklama</a>
+    </nav>
+</header>
+<div class="container">
+    <h3>About Me</h3>
+    <p>U slobodno vrijeme najviše volim putovati i družiti se sa prijateljima, 
+	te trenirati odbojku sa svojim kolegama sa fakulteta. Također sam veliki 
+	ljubitelj EDM glazbe i festivala. Najdraže godišnje doba mi je ljeto iz 
+	razloga što sam rođena u Dalmaciji, tako da mi je poprilično teško kad 
+	su vrućine u Zagrebu, a ja se nemam gdje okupati. U budućnosti se želim 
+	baviti grafičkim dizajnom i možda jednog dana imati svoju firmu. </p>
+    <p><a href="https://youtu.be/T7gqQwZzaaY?si=u_tgBl41MTroDxJ8">Electric Love Festival 2023 – Opening Ceremony</a></p>
+    
+	<div class="gallery">
+        <img src="slike/slika1.jpg" alt="Image 1">
+        <img src="slike/slika2.jpg" alt="Image 2">
+        <img src="slike/slika3.jpg" alt="Image 3">
+        <img src="slike/slika4.jpg" alt="Image 4">
+        <img src="slike/slika5.jpg" alt="Image 5">
+        <img src="slike/slika6.jpg" alt="Image 6">
+        <img src="slike/slika7.jpg" alt="Image 7">
+		<img src="slike/slika8.jpg" alt="Image 7">
+		<img src="slike/slika9.jpg" alt="Image 7">
+    </div>
+</div>
+</body>
+</html>
